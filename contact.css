@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.contactsection{
+    background: linear-gradient(rgba(47, 43, 43, 0.75),rgba(45, 42, 42, 0.75)),url('img.jpg');
+    padding: 40px 0;
+    background-size: cover;
+}
+.contactsection h1{
+    text-align: center;
+    color: #ddd;
+}
+.border{
+    width:100px;
+    height: 10px;
+    background: #34495e;
+    margin:40px auto;
+}
+
+.contactform{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contentformtext{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin :16px 0;
+    border:o;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+
+}
+.contentformtext:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contentformtext{
+    resize: none;
+    height: 120px;
+}
+.contactformbtn{
+    float:right;
+    border: 0;
+    background: #34495e;
+    color:#fff;
+    padding:12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contactformbtn:hover{
+    background: #2980b9;
+}
+body{
+    font-size: 20px;
+    color: #ddd;
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    height: 17vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('background\ image.jpg');
+    background-size: cover;
+    background-position: center;
+}
